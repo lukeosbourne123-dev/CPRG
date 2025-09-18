@@ -18,3 +18,15 @@ print("the value of the variable y is: ",y,"and the type is ",type(y))
 print("the value of the variable q is: ",q,"and the type is ",type(q))
 print("the value of the variable msg is: ",msg,"and the type is ",type(msg))
 
+
+# casting - changing from one type to another; from int to float is promoting(increasing the size); from float to int is demoting(decreasing in size)
+
+#some function call: print, input, int, float, str, bool
+num_as_text = "43"
+num_as_num = int(num_as_text) #converting string (text) to num
+
+print(num_as_text) #will print as text
+print(num_as_num) # will it print?
+print(str(num_as_num)) # equivalent
+
+num = 3
