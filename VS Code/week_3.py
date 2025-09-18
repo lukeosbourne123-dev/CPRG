@@ -30,3 +30,50 @@ print(num_as_num) # will it print?
 print(str(num_as_num)) # equivalent
 
 num = 3
+
+
+# using input function. note input function always return a string (text)
+
+'''user_input = input("Please enter your year of birth\n")
+year_of_birth = int(user_input)
+print("Your age is ",2025 - int (year_of_birth))
+'''
+
+
+# print function - working with a separator
+
+print("Hello","world", sep=',', end=' ')
+print("Hello","world", sep=' ')
+print("Hello\tworld") # \t tab
+print("Hello\nworld") # \n sends to the a line
+print('What is the student\'s name?')
+print('Use this symbol \\ to make an escape character') # "\\" to prints a "\" refer to powerpoint slide
+
+# precedence rules - BODMAS, read left to right
+
+expression = 3+4*0-300+12/3
+print(expression)
+
+expression_2 = 4/2*3
+
+print(expression_2)
+
+# More about assignment 
+
+x = 3 
+x = x+5
+print(x)
+
+# can we have a shorthand for this expression?\
+x += 5 # x = x+5
+print(x)
+#other operations
+
+x -= 2 # x = x-2
+print(x)
+x *= 3 # x = x*3
+print(x)
+x /= 2 # x = x/2
+print(x)
+x **= 4 # x = x ** 4
+print(x)
